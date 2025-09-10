@@ -2,28 +2,40 @@ p {
     color: blue;
     font-size: 16px;
 }
-#header {
-    background-color: yellow;
+
+h1 {
+    font-size: 18px;
     text-align: center;
 }
-.container {
-    padding: 20 px;
-    border:1px solid black;
+
+h2 {
+    font-size: 20px
 }
-.title {
-    font-size: 24 px;
-    text-align: center;
-}
-.highlight {
-    color: red;
+
+h3 {
+    font-size: 22px;
     font-weight: bold;
 }
-div{
-    color: red
+
+.div1 {
+    font-size: 18x;
+    color:aliceblue;
+    height: 310px;
+    width: 100px;
+    background-color:blueviolet;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20%;
+    overflow: hidden;
 }
-.name {
-    color:green
+
+.div2 {
+    height: 100px;
+    width: 310px;
+    color:black;
+    background-color: red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 30%;
+    overflow: scroll;
 }
-#name {
-    color: blue
-} 
