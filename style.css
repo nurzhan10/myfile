@@ -1,41 +1,12 @@
-p {
-    color: blue;
-    font-size: 16px;
+.block {
+    diplay: inline;
 }
-
-h1 {
-    font-size: 18px;
-    text-align: center;
+.inline {
+    display: block;
+    width: 1000px;
+    height:auto
 }
-
-h2 {
-    font-size: 20px
-}
-
-h3 {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.div1 {
-    font-size: 18x;
-    color:aliceblue;
-    height: 310px;
-    width: 100px;
-    background-color:blueviolet;
-    padding: 20px;
-    margin: 15px;
-    border-radius: 20%;
-    overflow: hidden;
-}
-
-.div2 {
-    height: 100px;
-    width: 310px;
-    color:black;
-    background-color: red;
-    margin: 15px;
-    padding: 15px;
-    border-radius: 30%;
-    overflow: scroll;
+.s {
+    display:block;
+    width: 100%
 }
