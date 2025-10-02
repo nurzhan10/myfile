@@ -1,12 +1,32 @@
-.block {
-    display: inline;
+.button:hover {
+    background-color: #0056b3;
 }
-.inline {
-    display: block;
-    width: 1000px;
-    height:auto
+.button:active {
+    background-color: #003d80;
 }
-.s {
-    display:block;
-    width: 100%
+.input:focus {
+    border-color: #007bff;
+}
+.list-item:first-child {
+    font-weight:bold;
+}
+.list-item:last-child {
+    background-color: purple;
+}
+.site:hover {
+    background-color: #0056b3;
+    color:white
+}
+.inp:focus {
+    border-color: #197b4f;
+}
+.div:first-child:hover {
+
+    background-color: aquamarine;
+}
+.div:last-child:focus{
+    background-color: black;
+}
+.div:nth-child(even) {
+    background-color: brown;
 }
