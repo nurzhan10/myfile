@@ -1,32 +1,46 @@
-.button:hover {
-    background-color: #0056b3;
+.static {
+    position: static;
+    width:200 px;
+    height: 100px;
+    background-color:lightblue;
 }
-.button:active {
-    background-color: #003d80;
-}
-.input:focus {
-    border-color: #007bff;
-}
-.list-item:first-child {
-    font-weight:bold;
-}
-.list-item:last-child {
-    background-color: purple;
-}
-.site:hover {
-    background-color: #0056b3;
-    color:white
-}
-.inp:focus {
-    border-color: #197b4f;
-}
-.div:first-child:hover {
+/* static и relative оба располагаются в обычном потоке документа, но для relative можно использовать свойства top, right, bottom и left, а для static нельзя */
 
-    background-color: aquamarine;
+.relative {
+    position: relative;
+    top:20px;
+    left:30px;
+    background-color: lightcoral;
 }
-.div:last-child:focus{
-    background-color: black;
+/* я использовал relative */
+.container {
+    position: relative;
 }
-.div:nth-child(even) {
-    background-color: brown;
+.position-absolute {
+    position:absolute;
+    background:lightpink;
+    top: 30px;
+    left: 15px;
+}
+.position-fixed {
+    position:fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.sticky-element1{
+    position: sticky;
+    top:10px;
+    background-color: red;
+    padding: 10px;
+    border:1px solid #ccc
+}
+.sticky-element2{
+    position: sticky;
+    top:10px;
+    background-color: red;
+    padding: 10px;
+    border:1px solid #ccc
+}
+html {
+    height: 2000px;
 }
