@@ -53,6 +53,7 @@
 }
 .gallery {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -60,12 +61,21 @@
 .a {
     background-color: black;
     flex-grow: 0;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 200px;
 }
 .b {
     background-color: brown;
     flex-shrink: 0;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 200px;
 }
 .c {
     flex-basis: auto;
     background-color: blueviolet;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 200px;
 }
